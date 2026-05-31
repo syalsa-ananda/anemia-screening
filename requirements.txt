@@ -1,0 +1,29 @@
+# ============================================================
+# requirements.txt — Skrining Anemia Non-Invasif Balita
+# Versi stabil & kompatibel per Juni 2025
+# ============================================================
+# Instalasi: pip install -r requirements.txt
+
+# ── Core Image Processing ───────────────────────────────────
+opencv-python==4.10.0.84         # cv2: load, resize, warp, color convert, histograms
+scikit-image==0.24.0             # LBP (local_binary_pattern) & GLCM (graycomatrix)
+Pillow==10.4.0                   # I/O fallback & format support
+
+# ── Machine Learning ────────────────────────────────────────
+scikit-learn==1.5.2              # SVM, GridSearchCV, StandardScaler, train_test_split
+imbalanced-learn==0.12.3         # SMOTE (kompatibel dengan scikit-learn 1.5.x)
+
+# ── Data Handling ───────────────────────────────────────────
+numpy==1.26.4                    # array ops (gunakan 1.x untuk kompatibilitas sklearn)
+pandas==2.2.3                    # DataFrame, CSV I/O
+
+# ── Visualization ───────────────────────────────────────────
+matplotlib==3.9.2                # plotting confusion matrix, histogram fitur
+seaborn==0.13.2                  # heatmap confusion matrix
+
+# ── Progress & Utilities ────────────────────────────────────
+tqdm==4.66.5                     # progress bar pada loop ekstraksi fitur
+
+# ── Optional: Notebook & Reporting ──────────────────────────
+jupyter==1.1.1                   # eksplorasi interaktif (opsional)
+joblib==1.4.2                    # paralel & serialisasi model (sudah include di sklearn)

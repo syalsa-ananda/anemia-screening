@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Data mentah (terlalu besar untuk GitHub)
+data/raw/Anemic/
+data/raw/Non-Anemic/
+data/raw/*.xlsx
+
+# File yang dibuat otomatis
+data/processed/
+outputs/models/
+outputs/reports/
+outputs/visualizations/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Model besar
+*.pth
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
