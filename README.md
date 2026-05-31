@@ -16,6 +16,12 @@ statistika dengan jaminan **Anti-Data Leakage** yang ketat.
 > Support Vector Machine"*
 
 ---
+## 📓 Lihat Notebook
+
+| Notebook | Google Colab | NBViewer |
+|----------|-------------|----------|
+| 01 - Exploratory Analysis | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/syalsa-ananda/anemia-screening/blob/main/notebooks/01_exploratory_analysis.ipynb) | [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/syalsa-ananda/anemia-screening/blob/main/notebooks/01_exploratory_analysis.ipynb) |
+| 02 - SVM Pipeline | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/syalsa-ananda/anemia-screening/blob/main/notebooks/02_svm_pipeline.ipynb) | [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/syalsa-ananda/anemia-screening/blob/main/notebooks/02_svm_pipeline.ipynb) |
 
 ## 🏆 Hasil Akhir
 
